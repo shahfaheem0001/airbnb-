@@ -1,0 +1,12 @@
+2025-04-19 10:00:02.892 [info] Extension host with pid 12408 started
+2025-04-19 10:00:02.916 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-04-19 10:00:03.010 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-19 10:00:03.034 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-19 10:00:03.103 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-19 10:00:03.266 [info] Eager extensions activated
+2025-04-19 10:00:03.284 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-19 10:00:03.288 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-19 10:00:03.310 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-04-19 10:00:03.368 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: ritwickdey.LiveServer
+2025-04-19 10:00:11.176 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-19 10:00:11.255 [info] Extension host with pid 12408 exiting with code 0

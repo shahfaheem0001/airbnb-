@@ -1,0 +1,4 @@
+2025-04-21 19:34:24.438 [error] Error: Error mutex already exists
+    at Cu.S (file:///C:/Users/shahf/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:82:18280)
+2025-04-21 19:34:24.438 [info] update#setState idle
+2025-04-21 19:34:35.597 [info] Extension host with pid 17212 exited with code: 0, signal: unknown.

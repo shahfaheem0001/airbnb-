@@ -1,0 +1,59 @@
+<% layout('/layouts/boilerplate') %>
+
+<h3 class="text-center mb-4">Create a New Listing</h3>
+
+<div class="row">
+  <div class="col-8 offset-2">
+    <form method="POST" action="/listings" novalidate class="needs-validation" enctype="multipart/form-data">
+      
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input name="listing[title]" placeholder="Enter title" type="text" class="form-control"
+        required>
+        <div class="valid-feedback">tilte looks good</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea name="listing[description]" class="form-control" required rows="3"></textarea>
+        <div class="invalid-feedback">please write a short description</div>
+      </div>
+
+      
+      <div class="mb-3">
+        <label for="image" class="form-label">upload listing image</label>
+        <input name="listing[image]"  type="file" class="form-control">
+        required
+        <div class="invalid-feedback">please enter valid image link</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="price" class="form-label">Price</label>
+        <input name="listing[price]" placeholder="Enter price"  class="form-control"
+        required>
+        <div class="invalid-feedback">price should be valid</div>
+      </div>
+
+
+      <div class="mb-3">
+        <label for="location" class="form-label">Location</label>
+        <input name="listing[location]" placeholder="Enter location" type="text" class="form-control"
+        required>
+        <div class="invalid-feedback">please enter valid location</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="country" class="form-label">Country</label>
+        <input name="listing[country]" placeholder="Enter your country" type="text" class="form-control"
+        required>
+        <div class="invalid-feedback">plesae enter valid country</div>
+      </div>
+
+      <div class="d-grid mt-4">
+        <button class="btn btn-dark add-btn">Add</button>
+      </div>
+
+    </form>
+  </div>
+  </div> 
+  
