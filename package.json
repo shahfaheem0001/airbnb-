@@ -34,6 +34,8 @@
 
         "bcrypt": "^5.1.1",
 
+        "bcryptjs": "^3.0.2",
+
         "cloudinary": "^1.41.3",
 
         "connect-flash": "^0.1.1",
@@ -62,7 +64,7 @@
 
         "method-override": "^3.0.0",
 
-        "mongoose": "^8.13.1",
+        "mongoose": "^8.14.0",
 
         "morgan": "^1.10.0",
 
@@ -77,6 +79,12 @@
         "passport-local": "^1.0.0",
 
         "passport-local-mongoose": "^8.0.0"
+
+    },
+
+    "devDependencies": {
+
+        "nodemon": "^3.1.10"
 
     }
 
